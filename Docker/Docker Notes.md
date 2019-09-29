@@ -149,6 +149,8 @@ and even copy files and directories to the image.
 An example of a Dockerfile can be examined through this URL:
 [https://github.com/docker-library/httpd/blob/master/2.4/Dockerfile](https://github.com/docker-library/httpd/blob/master/2.4/Dockerfile)
 
+Dockerfile cheat sheet: [https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
+
 Simple Dockerfile Example:
 
 ```docker

@@ -1,0 +1,12 @@
+- hosts: ubuntu # Which hosts Ansible will contact, `all` means all machines in the hosts file
+  become: yes # Use root (sudo) privileges
+  tasks: # List of tasks to execute on the remote machine
+    - name: Ensure that apache is installed # Descriptive name for the task
+      apt: # Uses apt-get on ubuntu machines (yum for centos)
+        name: apache2 # Package name (httpd for centos)
+        state: present # If present, install it. Can also use `absent` to ensure that it is not installed (remove it)
+    - name: Ensure that Apache is running and will be started on boot
+      service: # Handles the daemons that are running on the remote systems
+        name: apache2 # Service name
+        state: started # started/stopped/restarted
+        enabled: yes # Ensure that service is started whenever the system is booted
