@@ -1,5 +1,17 @@
 # Ansible
 
+- [Ansible](#ansible)
+  - [Why configuration management is needed](#why-configuration-management-is-needed)
+  - [What is Ansible](#what-is-ansible)
+  - [Installing Ansible](#installing-ansible)
+  - [The Inventory file](#the-inventory-file)
+  - [Using private key and public key to connect to other machines](#using-private-key-and-public-key-to-connect-to-other-machines)
+  - [Ansible basics](#ansible-basics)
+  - [The YAML Format](#the-yaml-format)
+  - [Ansible YAML Playbook](#ansible-yaml-playbook)
+  - [Ansible Lab : LAMP stack](#ansible-lab--lamp-stack)
+  - [Provisioning using Ansible from the Vagrantfile](#provisioning-using-ansible-from-the-vagrantfile)
+
 ## Why configuration management is needed
 
 To achieve a DevOps environment, automation is needed.
