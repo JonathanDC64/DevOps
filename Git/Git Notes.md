@@ -1,5 +1,27 @@
 # Git
 
+- [Git](#git)
+  - [The Need For Version Control](#the-need-for-version-control)
+  - [Is it Git or GitHub](#is-it-git-or-github)
+  - [Git Installation](#git-installation)
+  - [git clone - Copy the contents of an existing Git repository](#git-clone---copy-the-contents-of-an-existing-git-repository)
+  - [Identify yourself to Git](#identify-yourself-to-git)
+  - [git init - Initialize empty repository in current folder](#git-init---initialize-empty-repository-in-current-folder)
+  - [git add - Specifies which files to stage in the next commit](#git-add---specifies-which-files-to-stage-in-the-next-commit)
+  - [git commit - Record cahnges to the repository](#git-commit---record-cahnges-to-the-repository)
+  - [.gitignore - File that specifies which files and directories to not track](#gitignore---file-that-specifies-which-files-and-directories-to-not-track)
+  - [git log - History of the git repository](#git-log---history-of-the-git-repository)
+  - [git diff - Take 2 commits and compare the differences](#git-diff---take-2-commits-and-compare-the-differences)
+  - [Using GitHub](#using-github)
+  - [git push - Sends changes to remote repository](#git-push---sends-changes-to-remote-repository)
+  - [git pull - Retrieve changes from remote repository](#git-pull---retrieve-changes-from-remote-repository)
+  - [git fetch - Retrieve changes without modifying any files](#git-fetch---retrieve-changes-without-modifying-any-files)
+  - [git branch - List, Create or Delete branches](#git-branch---list-create-or-delete-branches)
+  - [git checkout - Change current branch](#git-checkout---change-current-branch)
+  - [git merge - Join two or more branches](#git-merge---join-two-or-more-branches)
+  - [git reset - Revert to a previous commit](#git-reset---revert-to-a-previous-commit)
+  - [git rm - Remove files from working tree](#git-rm---remove-files-from-working-tree)
+
 ## The Need For Version Control
 
 As DevOps is all about speed, efficiency, and collaboration,
@@ -178,7 +200,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 ## git log - History of the git repository
 
-The hash value after where `commit: ` is uniquely identifies that commit.
+The hash value after where `commit:` is uniquely identifies that commit.
 This value is useful for when you need to refer to a specific commit.
 
 ```bash
@@ -197,7 +219,6 @@ git log
 ```
 
 ## git diff - Take 2 commits and compare the differences
-
 
 ```bash
 git diff COMMIT_HASH1..COMMIT_HASH2
