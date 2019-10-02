@@ -8,7 +8,7 @@
   - [Identify yourself to Git](#identify-yourself-to-git)
   - [git init - Initialize empty repository in current folder](#git-init---initialize-empty-repository-in-current-folder)
   - [git add - Specifies which files to stage in the next commit](#git-add---specifies-which-files-to-stage-in-the-next-commit)
-  - [git commit - Record cahnges to the repository](#git-commit---record-cahnges-to-the-repository)
+  - [git commit - Record changes to the repository](#git-commit---record-changes-to-the-repository)
   - [.gitignore - File that specifies which files and directories to not track](#gitignore---file-that-specifies-which-files-and-directories-to-not-track)
   - [git log - History of the git repository](#git-log---history-of-the-git-repository)
   - [git diff - Take 2 commits and compare the differences](#git-diff---take-2-commits-and-compare-the-differences)
@@ -150,7 +150,7 @@ git add FILE_NAMES...
 git add .
 ```
 
-## git commit - Record cahnges to the repository
+## git commit - Record changes to the repository
 
 Creates a snapshot of the repositories contents
 at the current point in time (Based on staged files).
